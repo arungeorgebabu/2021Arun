@@ -1,0 +1,45 @@
+git init
+git clone url
+git status
+git add .
+git commit -m"message"
+git push origin master
+
+*For configuring mail id and username
+git config --global user.email "you@domain.com"
+git config --global user.name "github_username"
+git config user.name :for confirming (checking the user name)
+
+git pull origin master : for pulling the codes which are updated by other developers to my local repository.
+git remote add remotename(origin) "url" for merging git hub repository locally without cloning
+git remote -v : for checking 
+git log: it will show all log of our commit history.
+
+BRANCHING:
+git branch branchname : for creating new branch. eg: git branch alfa
+git branch -a : for listing all branches in specified project.
+git checkout branchname: to go inside into specific branches. eg: git checkout alfa
+git push origin alfa: for pushing files from branch called alfa
+git checkout master: for switching to master from any branch
+git branch -d 'branch name': to delete a branch
+git push origin --delete 'branchname'
+
+DELETE:
+To delete any file from local repository and cloud repository
+git rm -r filename
+git commit -m "msg"
+git push origin master
+
+
+
+
+
+Jenkins:
+*For changing the default 8080 port number
+java -jar -httpPort=9999 jenkins.war   :to change existing port 8080 to 9999
+jenkins url:http://119.82.97.213:9005
+user name:jenkinsserver
+Pass:Prakat123
+
+Github:arungeorgebabu	
+Gitlab:arungeorge
