@@ -1,2 +1,0 @@
-1) For updating: sudo yum install -y gitlab-ce
-2)For Start,stop,restart service: sudo gitlab-ctl start (stop,restart)
